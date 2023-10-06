@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/img/the-background-3272132_1280.jpg);
+  background-size: cover;
+  background-color: #b3f6e7;
+  font-family: "Optima", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2.2rem 1.5rem;
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(22, 14, 69, 0.9);
+}
+
+.form__title {
+  color: #419882;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.form__title-horizontal-rule {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+
+.form__label {
+  display: block;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.form__input {
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 0;
+  outline-color: #160e45;
+  border: 0.1rem solid rgb(206, 203, 203);
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+}
+
+.form__input:invalid {
+  outline: 0.1rem solid red;
+}
+
+.error-message {
+  display: none;
+}
+
+.form__input:invalid + .error-message {
+  color: red;
+  display: block;
+  font-size: 14px;
+}
+
+.btn__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  outline-color: #160e45;
+  border: 1px solid #419882;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #419882;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  background-color: #12624e;
+}
