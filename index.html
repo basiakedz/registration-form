@@ -10,11 +10,11 @@
   </head>
   <body>
     <main>
-      <div class="form-container">
-        <form action="">
+      <div id="register-form-container" class="form-container">
+        <form id="register-form" action="">
           <h1 class="form__title">Formularz Rejestracyjny</h1>
           <hr class="form__title-horizontal-rule" />
-          <p>
+          <div id="first-name-field">
             <label for="firstName" class="form__label">Imię</label>
             <input
               id="firstName"
@@ -22,14 +22,12 @@
               type="text"
               placeholder="Imię"
               class="form__input"
-              pattern="[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ]+"
-              required
             />
-            <span class="error-message"
+            <!-- <span class="error-message"
               >Proszę wypełnić pole (pamiętaj, że można użyć tylko liter)</span
-            >
-          </p>
-          <p>
+            > -->
+          </div>
+          <div id="last-name-field">
             <label for="lastName" class="form__label">Nazwisko</label>
             <input
               id="lastName"
@@ -37,14 +35,12 @@
               type="text"
               placeholder="Nazwisko"
               class="form__input"
-              pattern="[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ]+"
-              required
             />
-            <span class="error-message"
+            <!-- <span class="error-message"
               >Proszę wypełnić pole (pamiętaj, że można użyć tylko liter)</span
-            >
-          </p>
-          <p>
+            > -->
+          </div>
+          <div id="email-field">
             <label for="email" class="form__label">E-mail</label>
             <input
               id="email"
@@ -52,17 +48,17 @@
               type="email"
               placeholder="E-mail"
               class="form__input"
-              required
             />
-            <span class="error-message"
+            <!-- <span class="error-message"
               >Proszę wypełnić pole (np. podany@przykład.pl)</span
-            >
-          </p>
+            > -->
+          </div>
           <div class="btn__container">
-            <input value="Wyślij" type="submit" class="btn" />
+            <input value="Wyślij" type="submit" class="btn" id="submit-btn" />
           </div>
         </form>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

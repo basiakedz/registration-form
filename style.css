@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -52,7 +56,7 @@ body {
 
 .form__input {
   margin-bottom: 0.5rem;
-  padding: 0.6rem 0;
+  padding: 0.6rem 0.8rem;
   outline-color: #160e45;
   border: 0.1rem solid rgb(206, 203, 203);
   border-radius: 5px;
@@ -60,15 +64,11 @@ body {
   width: 100%;
 }
 
-.form__input:invalid {
+.form__error-input {
   outline: 0.1rem solid red;
 }
 
 .error-message {
-  display: none;
-}
-
-.form__input:invalid + .error-message {
   color: red;
   display: block;
   font-size: 14px;
