@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const successTitleEl = document.createElement("h1");
 
-      successTitleEl.classList.add("form__title");
+      successTitleEl.classList.add("form__title-welcoming");
       successTitleEl.textContent = `Witaj ${firstName} ${lastName}! Dziękujemy za Twoje zgłoszenie :)`;
 
       document

@@ -36,7 +36,7 @@ body {
 }
 
 .form__title {
-  color: #160e45;
+  color: #419882;
   margin-bottom: 1rem;
   margin-top: 0;
   text-align: center;
@@ -95,4 +95,11 @@ body {
 
 .btn:hover {
   background-color: #12624e;
+}
+
+.form__title-welcoming {
+  color: #160e45;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-align: center;
 }
