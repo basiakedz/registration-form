@@ -1,6 +1,6 @@
 # Register Form ![Register Form icon](/img/register-form-32x32.png)
 
-This is a simple register form using vanilla JavaScript.
+This is a simple register form using vanilla JavaScript based on my own design.
 
 ### Overview
 
